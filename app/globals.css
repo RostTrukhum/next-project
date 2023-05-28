@@ -87,6 +87,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -104,4 +107,23 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.container {
+  padding-left: 20%;
+  padding-right: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+header {
+  margin-top: 20px;
 }
